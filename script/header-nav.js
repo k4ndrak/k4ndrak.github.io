@@ -28,7 +28,9 @@ $purse.addEventListener('click', () => {
     if(getComputedStyle($userAreaDisplay).display === "none") {
         $userAreaDisplay.style.display = "block";
         $navDisplay.style.display = "none";
-        $searchBarDisplay.style.display = "none";
+        if (window.matchMedia("screen and (max-width: 786px)").matches) {
+            $searchBarDisplay.style.display = "none";
+        }
         $menu.style.display ='block';
         $logo.style.display ='block';
     } else if(getComputedStyle($userAreaDisplay).display == "block") {
