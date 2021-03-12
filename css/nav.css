@@ -27,7 +27,6 @@
         width: 115px;
         height: 280px;
         background-color: unset;
-        /* height: 150px; */
         margin-left: 20px;
         margin-top: 0;
         z-index: 100;
@@ -43,7 +42,6 @@
     }
 
     .nav ul li {
-        /* display: block; */
         height: 40px;
         margin: 0;
         padding: 0;

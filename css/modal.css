@@ -10,7 +10,6 @@
     overflow: hidden;
     background-color: #353535;
     background-color: rgba(0,0,0,0.7);
-    /* box-sizing: border-box; */
 }
 
 .modal-content {
@@ -116,9 +115,6 @@
 
 
 @media screen and (max-width: 768px) {
-
-/* @media screen and (max-width: 360px) { */
-
 
     .modal {
         width: 100%;

@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 .benefits {
-    /* display: block; */
     max-width: 1920px;
     margin-left: 8%;
     margin-right: 8%;
@@ -49,7 +48,6 @@
     font-size: 14px;
     line-height: 21px;
     color: #353535;
-    /* border: 1px solid red; */
 }
 
 .benefits-tipbar-text {
@@ -61,15 +59,12 @@
     line-height: 18px;
     color: #000;
     
-    /* border: 1px solid red; */
 }
 
-/* @media screen and (max-width: 360px) { */
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     
     .benefits {
-        /* display: block; */
         margin: 0;
     }
 

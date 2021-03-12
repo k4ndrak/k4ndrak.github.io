@@ -39,7 +39,6 @@
     border-radius: 10px;
     height: 40px;
     width: calc(100% - 120px);
-    /* width: 50%; */
     background-color: #efefef;
     font-size: 14px;
     padding-left: 15px;    
@@ -53,7 +52,6 @@
 }
 
 .header-user-area {
-    /* width: 440px; */
     height: 50px;
 }
 
@@ -117,7 +115,6 @@
         width: 30px;
         height: 30px;
         margin-left: calc(100% - 50px);
-        /* margin-right: 20px; */
     }
 
     #header-content {
@@ -146,12 +143,10 @@
     }
 
     .header-user-area-conta ul li {
-        /* display: block; */
         width: 150px;
         padding-top: 9px;
         padding-left: 20px;
         border-bottom: 1px solid rgba(53,53,53, 0.2);
-        /* border-bottom-width: 100px; */
         background-color: rgba(255, 255, 255, 0.8);
     }
 

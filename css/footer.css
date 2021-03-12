@@ -5,8 +5,6 @@
     display: block;
     height: 335px;
     background-color: #FAFAFA;
-    /* zoom: 1.2; */
-    /* border: 1px solid red; */
 }
 
 #footer-nav-wrapper {
@@ -19,7 +17,6 @@
     width: 1000px;
     height: 250px;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 .footer-nav {
@@ -39,7 +36,6 @@
 .footer-nav-head-span {
     font-size: 16px;
     font-weight: bold;
-    /* padding-bottom: 30px; */
 }
 
 #footer-nav ul {
@@ -102,7 +98,6 @@
        
     #footer-nav {
         width: 100%;
-        /* margin: auto; */
     }
     
     
