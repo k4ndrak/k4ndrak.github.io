@@ -36,17 +36,14 @@ function switchSlide(current) {
     if (current < 0) {
         slideIndex = $dots.length - 1;
     }
-    console.log(slideIndex);
     for (let i = 0; i < $dots.length; i++) {
         $dots[i].children[0].src = "images/elipse-vazio.svg";
     }
 
     $dots[slideIndex].children[0].src = "images/elipse-cheia.svg";
     if (window.matchMedia("screen and (max-width: 360px)").matches) {
-        console.log('aqui');
         banner.style.backgroundImage = "url('./images/main-banner-p-".concat(slideIndex).concat(".jpg')");
     } else {
-        console.log('la');
         banner.style.backgroundImage = "url('./images/main-banner-".concat(slideIndex).concat(".jpg')");
     }
 }
