@@ -45,7 +45,6 @@ $menu.addEventListener('click', () => {
     if(getComputedStyle($navDisplay).display === "none") {
         $navDisplay.style.display = "block";
         $userAreaDisplay.style.display = "none";
-        $searchBarDisplay.style.display = "none";
     } else if(getComputedStyle($navDisplay).display == "block") {
         $navDisplay.style.display = "none";
     }
