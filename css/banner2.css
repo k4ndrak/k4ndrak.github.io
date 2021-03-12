@@ -35,6 +35,8 @@
 
 #banner-2-img img {
     max-width: 100%;
+    
+    border-radius: 4px;
 }
 
 
@@ -102,9 +104,8 @@
     #banner-2-img {
         width: 300px;
         height: 185px;
-        border-radius: 4px;
         transform: none;
         margin: 30px;
     }
-    
+
 }
