@@ -42,10 +42,12 @@ function switchSlide(current) {
     }
 
     $dots[slideIndex].children[0].src = "images/elipse-cheia.svg";
-    if (window.screen.width > 360) {
-        banner.style.backgroundImage = "url('./images/main-banner-".concat(slideIndex).concat(".jpg')");
-    } else {
+    if (window.matchMedia("screen and (max-width: 360px)").matches) {
+        console.log('aqui');
         banner.style.backgroundImage = "url('./images/main-banner-p-".concat(slideIndex).concat(".jpg')");
+    } else {
+        console.log('la');
+        banner.style.backgroundImage = "url('./images/main-banner-".concat(slideIndex).concat(".jpg')");
     }
 }
 
